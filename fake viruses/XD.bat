@@ -9,7 +9,7 @@ echo \
 echo / The XD Virus Malware initiative is initiating a full override and destruction of your computer.
 echo \ [#---------]
 echo /
-echo \ Taking discord ID
+echo \ Locating Discord Path and Token
 echo /
 echo \
 echo /
@@ -41,7 +41,7 @@ echo \
 echo / The XD Virus Malware initiative is initiating a full override and destruction of your computer..
 echo \ [##--------]
 echo /
-echo \ Getting your IP
+echo \ Tracing the IP Address
 echo /
 echo \
 echo /
@@ -66,14 +66,14 @@ echo /   \ \/ /  [ [\ \
 echo \   / /\ \  [ [/ /
 echo /  / /  \ \ [   /
 echo \  [/    \] [__/
-timeout /t 1 /nobreak >nul
+timeout /t 1.5 /nobreak >nul
 
 cls
 echo \
 echo / The XD Virus Malware initiative is initiating a full override and destruction of your computer...
 echo \ [###-------]
 echo /
-echo \ IP found and uploaded!
+echo \ IP Address found and uploaded to our server
 echo /
 echo \
 echo /
@@ -105,7 +105,7 @@ echo \
 echo / The XD Virus Malware initiative is initiating a full override and destruction of your computer.
 echo \ [####------]
 echo /
-echo \ Attempting to locate your bank details
+echo \ Checking Chrome, Edge and Firefox for linked payment details
 echo /
 echo \
 echo /
@@ -137,7 +137,7 @@ echo \
 echo / The XD Virus Malware initiative is initiating a full override and destruction of your computer..
 echo \ [#####-----]
 echo /
-echo \ Bank details found and uploaded!
+echo \ Multiple cards found and uploaded to our servers through TOR network
 echo /
 echo \
 echo /
@@ -259,7 +259,7 @@ echo /   \ \/ /  [ [\ \
 echo \   / /\ \  [ [/ /
 echo /  / /  \ \ [   /
 echo \  [/    \] [__/
-timeout /t 1 /nobreak >nul
+timeout /t 1.75 /nobreak >nul
 cls
 
 cls
@@ -366,5 +366,6 @@ cd %~dp0
 start .\XD.bat
 
 timeout /t 1 /nobreak >nul
+
 
 mshta javascript:alert("Your PC will be destroyed shortly.\nThe authorities have been alerted and we have told them you are holding hostages at gunpoint.");close();
