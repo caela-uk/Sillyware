@@ -70,7 +70,7 @@ echo /   \ \/ /  [ [\ \
 echo \   / /\ \  [ [/ /
 echo /  / /  \ \ [   /
 echo \  [/    \] [__/
-timeout /t 1.5 /nobreak >nul
+timeout /t 1 /nobreak >nul
 
 cls
 echo \
@@ -263,7 +263,7 @@ echo /   \ \/ /  [ [\ \
 echo \   / /\ \  [ [/ /
 echo /  / /  \ \ [   /
 echo \  [/    \] [__/
-timeout /t 1.75 /nobreak >nul
+timeout /t 1 /nobreak >nul
 cls
 
 cls
@@ -373,6 +373,7 @@ timeout /t 1 /nobreak >nul
 
 
 mshta javascript:alert("Your PC will be destroyed shortly.\nThe authorities have been alerted and we have told them you are holding hostages at gunpoint.");close();
+
 
 
 
