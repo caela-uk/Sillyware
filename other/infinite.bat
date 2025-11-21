@@ -5,7 +5,7 @@ color 05
 :1
 
 cd %~dp0
-start .\infinity.bat
+start .\infinite.bat
 
 cls
 echo )
@@ -36,4 +36,5 @@ echo )
 echo )
 echo )
 echo )
+
 goto 1
