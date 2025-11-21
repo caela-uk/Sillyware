@@ -4,7 +4,7 @@
 ::    FOR DISPLAY. NO DATA IS FOUND OR UPLOADED!
 :: ========================================================
 title XD / DESTROYING PC
-color 0a
+color 04
 
 :1
 
@@ -373,5 +373,6 @@ timeout /t 1 /nobreak >nul
 
 
 mshta javascript:alert("Your PC will be destroyed shortly.\nThe authorities have been alerted and we have told them you are holding hostages at gunpoint.");close();
+
 
 
